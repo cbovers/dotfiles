@@ -10,6 +10,7 @@ alias localip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{
 alias getip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias sshkey="cat ~/.ssh/id_ed25519.pub | pbcopy && echo 'Copied to clipboard.'"
+alias sshkeyrsa="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'Copied to clipboard.'"
 
 # Directories
 alias sites="cd ~/Sites"
