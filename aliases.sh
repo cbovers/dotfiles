@@ -27,3 +27,8 @@ alias glf="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d
 alias gl="glf | head"
 alias glz='git log --oneline | fzf --preview "git show {+1} --color=always" | cut -c 1-8'
 alias nah="git reset --hard && git clean -df"
+
+# DDEV
+alias dc="ddev craft"
+alias da="ddev artisan"
+
